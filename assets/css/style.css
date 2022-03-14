@@ -1,0 +1,164 @@
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  height: 77px;
+  z-index: 997;
+  transition: all 0.5s ease-in-out;
+  padding: 13px 10px;
+  background:;
+  color:white; 
+}
+
+#header.header-scrolled {
+  box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header .logo h1 {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Crimson Text",Arial,sans-serif;
+  padding: 30px 0;
+  line-height:1;
+  font-weight:300;
+  color:white;
+  letter-spacing:3px;
+}
+
+#header .logo h1 a, #header .logo h1 a:hover {
+  color:white;
+  text-decoration: none;
+}
+.center{
+  width:100%;
+  padding:10em;
+}
+.center h1{
+ font-family: GTSectraDisplay,serif;
+  font-weight:300;
+  font-size: 43px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.center a{
+ font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color:black; 
+  text-align:center; 
+  width:18rem; 
+  letter-spacing: 1px;
+}
+.center span{
+ font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.dropdown-menu{
+   font-family: "Raleway", sans-serif;
+        height:490px;
+        width:289px;
+        border: 0px; 
+        overflow-y: auto;
+        background-color: hsla(0,0%,100%,.5);
+        position: relative;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 10rem;
+        padding: 0.0rem;
+        margin: .125rem 0 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-clip: padding-box;
+        border: 0px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+  }
+  .dropdown-menu a{
+    color:black; 
+    display:inline-flex;
+    text-decoration: none;
+    user-select: none;
+    position: relative; 
+  }
+
+.button:hover {
+    background-color: hsla(0,0%,100%,.6);
+}
+.button {
+    background-color: hsla(0,0%,100%,.5);
+    padding: .7rem 2rem;
+    color: #000;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+  .dropdown-menu ul{
+    display:block;
+    border:none;
+    padding: .75rem 1.25rem;
+    background-color: hsla(0,0%,100%,.5);
+}
+  .dropdown-menu li{
+    display:block;
+    border:none;
+    padding: .75rem 1.25rem;
+    background-color: hsla(0,0%,100%,.5);
+}
+  .scrollable-menu {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 100;
+    cursor: pointer;
+    color:red; 
+    background-color: hsla(0,0%,100%,.0);   
+  }
+
+  .scroller {
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    background-color: red;
+    z-index: 100;
+    right:0;
+    top: 0;
+    cursor: pointer;
+    -webkit-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+  }
+
+#background1{
+background-image:url("https://images.prismic.io/visa/0c5236be-828c-472d-9a5f-4f0cfe93e09b_get-your-visa-alt.jpg"); 
+background-repeat: no-repeat;
+background-size: cover;   
+}
+
+.vLine {
+      border-left: 4px solid rgb(128, 0, 128);
+      height:20em;
+      margin-left:15%; 
+   }
